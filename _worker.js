@@ -1,15 +1,15 @@
 // @ts-ignore
-import { connect } from 'cloudflare:sockets';
+import { connect } from 'cloudflare:sockets';https://github.com/1365139863/EDtunnel/blob/main/_worker.js
 
 // How to generate your own UUID:
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
-let userID = 'd342d11e-d424-4583-b36e-524ab1f0afa4';
+let userID = '571ec409-28dd-4982-8bf0-a0441a0e665e';
 
-const proxyIPs = ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'workers.cloudflare.cyou'];
+const proxyIPs = ['cdn.shanggan.pp.ua', 'workers.cloudflare.cyou'];
 
 // if you want to use ipv6 or single proxyIP, please add comment at this line and remove comment at the next line
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
-// use single proxyIP instead of random
+// use single proxyIP instead of random0
 // let proxyIP = 'cdn.xn--b6gac.eu.org';
 // ipv6 proxyIP example remove comment to use
 // let proxyIP = "[2a01:4f8:c2c:123f:64:5:6810:c55a]"
